@@ -70,7 +70,7 @@ for idx, task in enumerate(tasks, start=1):
 ## File Structure
 
 ```
-📁 ToDoApp/
+ ToDoApp/
 ├── todo.py         # Main Python script
 └── todo.txt        # Stores all tasks
 ```
