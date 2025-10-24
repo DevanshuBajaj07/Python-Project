@@ -1,7 +1,7 @@
 task = []
 
 while True: # Main loop, makes the program run until the user decides to exit
-    file = open("todo.txt", "a+") # Open the file in append and read mode
+    file = open("ToDo/viewtodo.txt", "a+") # Open the file in append and read mode
     action = input("Would you like to add a task or view tasks? (add/view/exit): ").strip().lower() # Get user action
     if action == "add": 
         new_task = input("Enter the task you want to add: ").strip() # Get the new task from the user
