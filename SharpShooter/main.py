@@ -7,7 +7,8 @@ from pygame import mixer
 pygame.init()
 
 # Set up the game screen
-screen = pygame.display.set_mode((800, 600))
+SCREEN_W, SCREEN_H = 800, 600
+screen = pygame.display.set_mode((SCREEN_W, SCREEN_H))
 clock = pygame.time.Clock()
 running = True
 
