@@ -160,7 +160,7 @@ while running:
             bulletY = 480
             bullet_state = "ready"
             score_value += 1
-            enemyX[i] = random.randint(0, 735)
+            enemyX[i] = random.randint(0, 735) 
             enemyY[i] = random.randint(15, 150)
 
         # Draw the enemy
