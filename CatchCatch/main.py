@@ -22,7 +22,7 @@ OBJECT = {
     'double': (255, 100, 200),
 }
 SOUND_PATH = Path('assets/sounds')
-HIGH_SCORE_FILE = Path('highscore.txt')
+HIGH_SCORE_FILE = Path('CatchCatch/highscore.txt')
 
 
 # ----------------------------------------------------------------------
